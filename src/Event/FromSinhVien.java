@@ -84,11 +84,11 @@ public class FromSinhVien extends javax.swing.JFrame implements ActionListener, 
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jLabel1.setText("ID");
+        jLabel1.setText("Ma");
 
-        jLabel2.setText("Name");
+        jLabel2.setText("Ten");
 
-        jLabel3.setText("Phone");
+        jLabel3.setText("SDT");
 
         id.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
