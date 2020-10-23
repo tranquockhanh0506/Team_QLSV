@@ -30,9 +30,9 @@ public class FromSinhVien extends javax.swing.JFrame implements ActionListener, 
         xoa.addActionListener(this);
 
         table.addMouseListener(this);
-        tableTitle.add("ID");
-        tableTitle.add("Name");
-        tableTitle.add("Phone");
+        tableTitle.add("Ma");
+        tableTitle.add("Ten");
+        tableTitle.add("SDT");
       
         table.setModel(new DefaultTableModel(tableRecords, tableTitle));//Set dữ liệu cho bảng
 
