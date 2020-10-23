@@ -31,9 +31,9 @@ public class FromSinhVien extends javax.swing.JFrame implements ActionListener, 
         xoa.addActionListener(this);
 
         table.addMouseListener(this);
-        tableTitle.add("ID");
-        tableTitle.add("Name");
-        tableTitle.add("Phone");
+        tableTitle.add("Ma");
+        tableTitle.add("Ten");
+        tableTitle.add("SDT");
       
         table.setModel(new DefaultTableModel(tableRecords, tableTitle));//Set dữ liệu cho bảng
 
@@ -247,7 +247,7 @@ public class FromSinhVien extends javax.swing.JFrame implements ActionListener, 
             name.setText("");
             phone.setText("");
     }//GEN-LAST:event_themActionPerformed
-//da xong chuc nang them
+//da fix chuc nang them 2
 
     private void xoaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_xoaActionPerformed
         // TODO add your handling code here:
