@@ -246,7 +246,7 @@ public class FromSinhVien extends javax.swing.JFrame implements ActionListener, 
             name.setText("");
             phone.setText("");
     }//GEN-LAST:event_themActionPerformed
-//da xong chuc nang them
+//da fix chuc nang them 2
 
     private void xoaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_xoaActionPerformed
         // TODO add your handling code here:
