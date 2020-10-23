@@ -1,4 +1,4 @@
-/*
+﻿/*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
@@ -246,6 +246,7 @@ public class FromSinhVien extends javax.swing.JFrame implements ActionListener, 
             name.setText("");
             phone.setText("");
     }//GEN-LAST:event_themActionPerformed
+//da xong chuc nang them
 
     private void xoaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_xoaActionPerformed
         // TODO add your handling code here:
