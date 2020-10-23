@@ -264,6 +264,7 @@ public class FromSinhVien extends javax.swing.JFrame implements ActionListener, 
                     tableRecords.remove(dongdachon);
                     table.setModel(new DefaultTableModel(tableRecords, tableTitle));
                 }
+//xoa xong
             }
     }//GEN-LAST:event_xoaActionPerformed
 
