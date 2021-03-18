@@ -221,6 +221,8 @@ public class FromSinhVien extends javax.swing.JFrame implements ActionListener, 
                 tableRecords.set(iDongDaChon, record);
                 table.setModel(new DefaultTableModel(tableRecords, tableTitle));
 //            JOptionPane.showMessageDialog(rootPane, "Cập nhật xong");
+// da sua xong
+
             }        // TODO add your handling code here:
     }//GEN-LAST:event_suaActionPerformed
 
@@ -264,6 +266,7 @@ public class FromSinhVien extends javax.swing.JFrame implements ActionListener, 
                     tableRecords.remove(dongdachon);
                     table.setModel(new DefaultTableModel(tableRecords, tableTitle));
                 }
+//xoa xong
             }
     }//GEN-LAST:event_xoaActionPerformed
 
